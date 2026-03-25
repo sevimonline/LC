@@ -31,7 +31,7 @@ def load_logo(fn):
     except: pass
     return None
 
-logo_w = load_logo('GMT_Logo_TP_RGB_Feb_2025_white.png')
+logo_w = load_logo('GMT_Logo TP_RGB_Feb 2025_white.png')
 logo_img = f'<img style="height:36px;width:auto;filter:brightness(1.1)" src="data:image/png;base64,{logo_w}">' if logo_w else ''
 
 # ═══ CSS — FIXED SIDEBAR INPUT COLORS ═══
